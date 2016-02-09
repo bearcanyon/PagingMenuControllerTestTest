@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
         //1ページ目で表示させるコントローラーを指定する
         let page_1 = self.storyboard?.instantiateViewControllerWithIdentifier("PagingMenuController_1") as! PagingMenuController_1ViewController
         page_1.title = "1ページ目"
