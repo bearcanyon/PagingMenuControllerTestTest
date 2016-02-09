@@ -14,6 +14,11 @@
 		5FD45F1F1C69AF8F003FB6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD45F1D1C69AF8F003FB6D3 /* LaunchScreen.storyboard */; };
 		5FD45F2A1C69AF8F003FB6D3 /* PagingMenuControllerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD45F291C69AF8F003FB6D3 /* PagingMenuControllerTestTests.swift */; };
 		5FD45F351C69AF8F003FB6D3 /* PagingMenuControllerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD45F341C69AF8F003FB6D3 /* PagingMenuControllerTestUITests.swift */; };
+		5FD45F431C69B0BA003FB6D3 /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD45F421C69B0BA003FB6D3 /* PagingMenuController.framework */; };
+		5FD45F461C69B12C003FB6D3 /* PagingMenuController_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD45F451C69B12C003FB6D3 /* PagingMenuController_1ViewController.swift */; };
+		5FD45F481C69B135003FB6D3 /* PagingMenuController_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD45F471C69B135003FB6D3 /* PagingMenuController_2ViewController.swift */; };
+		5FD45F4A1C69B13D003FB6D3 /* PagingMenuController_3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD45F491C69B13D003FB6D3 /* PagingMenuController_3ViewController.swift */; };
+		5FD45F4C1C69B145003FB6D3 /* PagingMenuController_4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD45F4B1C69B145003FB6D3 /* PagingMenuController_4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		5FD45F301C69AF8F003FB6D3 /* PagingMenuControllerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingMenuControllerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD45F341C69AF8F003FB6D3 /* PagingMenuControllerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuControllerTestUITests.swift; sourceTree = "<group>"; };
 		5FD45F361C69AF8F003FB6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD45F421C69B0BA003FB6D3 /* PagingMenuController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PagingMenuController.framework; path = Carthage/Build/iOS/PagingMenuController.framework; sourceTree = "<group>"; };
+		5FD45F451C69B12C003FB6D3 /* PagingMenuController_1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuController_1ViewController.swift; sourceTree = "<group>"; };
+		5FD45F471C69B135003FB6D3 /* PagingMenuController_2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuController_2ViewController.swift; sourceTree = "<group>"; };
+		5FD45F491C69B13D003FB6D3 /* PagingMenuController_3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuController_3ViewController.swift; sourceTree = "<group>"; };
+		5FD45F4B1C69B145003FB6D3 /* PagingMenuController_4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuController_4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD45F431C69B0BA003FB6D3 /* PagingMenuController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +88,7 @@
 		5FD45F081C69AF8F003FB6D3 = {
 			isa = PBXGroup;
 			children = (
+				5FD45F421C69B0BA003FB6D3 /* PagingMenuController.framework */,
 				5FD45F131C69AF8F003FB6D3 /* PagingMenuControllerTest */,
 				5FD45F281C69AF8F003FB6D3 /* PagingMenuControllerTestTests */,
 				5FD45F331C69AF8F003FB6D3 /* PagingMenuControllerTestUITests */,
@@ -100,6 +112,10 @@
 				5FD45F141C69AF8F003FB6D3 /* AppDelegate.swift */,
 				5FD45F161C69AF8F003FB6D3 /* ViewController.swift */,
 				5FD45F181C69AF8F003FB6D3 /* Main.storyboard */,
+				5FD45F451C69B12C003FB6D3 /* PagingMenuController_1ViewController.swift */,
+				5FD45F471C69B135003FB6D3 /* PagingMenuController_2ViewController.swift */,
+				5FD45F491C69B13D003FB6D3 /* PagingMenuController_3ViewController.swift */,
+				5FD45F4B1C69B145003FB6D3 /* PagingMenuController_4ViewController.swift */,
 				5FD45F1B1C69AF8F003FB6D3 /* Assets.xcassets */,
 				5FD45F1D1C69AF8F003FB6D3 /* LaunchScreen.storyboard */,
 				5FD45F201C69AF8F003FB6D3 /* Info.plist */,
@@ -135,6 +151,7 @@
 				5FD45F0D1C69AF8F003FB6D3 /* Sources */,
 				5FD45F0E1C69AF8F003FB6D3 /* Frameworks */,
 				5FD45F0F1C69AF8F003FB6D3 /* Resources */,
+				5FD45F441C69B0C2003FB6D3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -251,12 +268,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FD45F441C69B0C2003FB6D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PagingMenuController.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FD45F0D1C69AF8F003FB6D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD45F481C69B135003FB6D3 /* PagingMenuController_2ViewController.swift in Sources */,
+				5FD45F461C69B12C003FB6D3 /* PagingMenuController_1ViewController.swift in Sources */,
 				5FD45F171C69AF8F003FB6D3 /* ViewController.swift in Sources */,
+				5FD45F4A1C69B13D003FB6D3 /* PagingMenuController_3ViewController.swift in Sources */,
+				5FD45F4C1C69B145003FB6D3 /* PagingMenuController_4ViewController.swift in Sources */,
 				5FD45F151C69AF8F003FB6D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +435,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PagingMenuControllerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.PagingMenuControllerTest;
@@ -408,6 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = PagingMenuControllerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = naoki.kumagai.PagingMenuControllerTest;
@@ -482,6 +528,7 @@
 				5FD45F3B1C69AF8F003FB6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD45F3C1C69AF8F003FB6D3 /* Build configuration list for PBXNativeTarget "PagingMenuControllerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +537,7 @@
 				5FD45F3E1C69AF8F003FB6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD45F3F1C69AF8F003FB6D3 /* Build configuration list for PBXNativeTarget "PagingMenuControllerTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +546,7 @@
 				5FD45F411C69AF8F003FB6D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
