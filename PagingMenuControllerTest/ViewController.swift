@@ -69,7 +69,7 @@ class ViewController: UIViewController {
         options.menuItemMode = .Underline(height: 3, color: UIColor.blackColor(), horizontalPadding: 0, verticalPadding: 0)
         
         //メニューの表示のされ方
-        options.menuDisplayMode = .SegmentedControl
+        options.menuDisplayMode = .Infinite(widthMode: .Flexible)
         
         
         let pagingMenuController = PagingMenuController(viewControllers: viewControllers, options: options)
