@@ -4,7 +4,7 @@
 //
 //  Created by KumagaiNaoki on 2016/02/01.
 //  Copyright © 2016年 KumagaiNaoki. All rights reserved.
-//
+//テスト
 
 import UIKit
 import PagingMenuController
